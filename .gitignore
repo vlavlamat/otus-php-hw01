@@ -1,0 +1,41 @@
+# IDE settings
+.idea/
+.vscode/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# PHP & Composer
+/vendor/
+composer.lock
+
+# Docker-related files
+docker-compose.override.yml
+docker/*.log
+docker/nginx/*.log
+docker/php/*.log
+data/mysql/
+data/redis/
+data/memcached/
+*.sql
+
+# Vagrant & Homestead
+.vagrant/
+Homestead.yaml
+Homestead.json
+
+# Environment configuration
+.env
+.env.*
+
+# Logs & temporary files
+*.log
+*.swp
+*.swo
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
