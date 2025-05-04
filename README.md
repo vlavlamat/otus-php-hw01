@@ -30,8 +30,8 @@
 
 ## 🗂️ Структура проекта
 
-- [`hw1-docker/`](./hw1-docker/) — реализация задания на базе Docker
-- [`hw1-vagrant/`](./hw1-vagrant/) — реализация задания с использованием Vagrant + Homestead
+- `hw1-docker/` — реализация задания на базе Docker
+- `hw1-vagrant/` — реализация задания с использованием Vagrant + Homestead
 
 ## 🧭 Ветки Git
 
@@ -42,8 +42,8 @@
 
 Перейдите в нужную ветку и следуйте инструкциям в соответствующем `README.md` внутри:
 
-- [`hw1-docker/README.md`](./hw1-docker/README.md)
-- [`hw1-vagrant/README.md`](./hw1-vagrant/README.md)
+- `hw1-docker/README.md`
+- `hw1-vagrant/README.md`
 
 ## 📌 Критерии оценки
 
@@ -84,8 +84,8 @@ This assignment requires creating **two isolated environments**:
 
 ## 🗂️ Project Structure
 
-- [`hw1-docker/`](./hw1-docker/) — Docker-based environment
-- [`hw1-vagrant/`](./hw1-vagrant/) — Vagrant + Homestead environment
+- `hw1-docker/` — Docker-based environment
+- `hw1-vagrant/` — Vagrant + Homestead environment
 
 ## 🧭 Git Branches
 
@@ -96,8 +96,8 @@ This assignment requires creating **two isolated environments**:
 
 Switch to the desired branch and follow the instructions in the corresponding `README.md`:
 
-- [`hw1-docker/README.md`](./hw1-docker/README.md)
-- [`hw1-vagrant/README.md`](./hw1-vagrant/README.md)
+- `hw1-docker/README.md`
+- `hw1-vagrant/README.md`
 
 ## 📌 Evaluation Criteria
 
