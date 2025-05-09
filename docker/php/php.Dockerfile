@@ -27,18 +27,6 @@ COPY ./src /var/www/html
 
 WORKDIR /var/www/html
 
-# Добавляем аргумент окружения
-#ARG APP_ENV=production
-
-# Устанавливаем зависимости Laravel в зависимости от окружения
-#RUN if [ "$APP_ENV" = "production" ]; then \
-#    composer install --no-dev --optimize-autoloader --no-interaction --no-scripts ;\
-#  else \
-#    composer install ;\
-#  fi
-
-# USER www-data
-
 # EXPOSE 9000
 
 CMD ["php-fpm"]
