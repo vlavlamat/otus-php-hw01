@@ -13,22 +13,18 @@ Icon?
 composer.lock
 
 # Docker-related files
-docker-compose.override.yml
 docker/*.log
 docker/nginx/*.log
 docker/php/*.log
-data/mysql/
 data/redis/
 data/memcached/
 *.sql
 
-# Vagrant & Homestead
-.vagrant/
-Homestead.yaml
-Homestead.json
+# Postgres data
+docker/postgres/data/
 
 # Environment configuration
-.env
+#.env
 .env.*
 
 # Logs & temporary files
