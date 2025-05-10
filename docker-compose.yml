@@ -39,8 +39,6 @@ services:
     container_name: redis
     networks:
       - otus-hw01
-    expose:
-      - "6379"
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
       interval: 10s
@@ -53,8 +51,6 @@ services:
     container_name: memcached
     networks:
       - otus-hw01
-    expose:
-      - "11211"
     healthcheck:
       test: ["CMD", "echo", "stats", "|", "nc", "localhost", "11211"]
       interval: 10s
@@ -71,8 +67,6 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
     networks:
       - otus-hw01
-    expose:
-      - "5432"
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "${POSTGRES_USER}"]
       interval: 10s
