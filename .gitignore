@@ -24,8 +24,8 @@ data/memcached/
 docker/postgres/data/
 
 # Environment configuration
-#.env
-.env.*
+*.env
+!.env.example
 
 # Logs & temporary files
 *.log
